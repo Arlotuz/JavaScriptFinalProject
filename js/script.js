@@ -16,6 +16,7 @@ function setImages(){
         //i.setAttribute("src",randomImg);
         //i.setAttribute("alt","");
         currentImages[i].src = randomImg;
+        currentImages[i].setAttribute("tabindex","0");
     }
 
 }
