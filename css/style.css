@@ -66,3 +66,10 @@ header img {
 .grid img {
   width: 100%;
 }
+.flex img{
+  opacity: .75;
+}
+img:hover, img:focus{
+opacity:1;
+  border: 2px solid black;
+}
